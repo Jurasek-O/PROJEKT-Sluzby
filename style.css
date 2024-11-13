@@ -1,0 +1,514 @@
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+body {
+    background-color: #FAFAFA;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto; 
+    margin: 60px 20px;
+}
+
+.happy-obrazek {
+    display: flex;
+    flex-basis: auto;
+    width: 350px;
+    height: 290px;
+    margin: 0 55px 40px 55px;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    height: 40px;
+    width: 195px;
+    margin: 0 133px 10px;
+}
+
+.rectangle {
+    width: 60px;
+    height: 2px;
+    background-color: #407BFF;
+    margin: 0 200px 30px;
+}
+
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    height: 20px;
+    width: 260px;  
+}
+
+p {
+    font-size:16px;
+    color: #8B8B8B;
+    text-align: center;
+    font-weight: 400;
+    line-height: 21px;
+    width: 460px;
+    height: 85px;
+    margin:0 0 30px 0;
+    line-height: 21px;
+}
+
+.tlacitka a {
+    display: block;
+	padding: 10px 30px;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: none;
+	text-align: center;
+	color: white;
+	border-radius: 20px;
+}
+
+.dobrodruzstvi {
+    margin: 0px 132px 10px 132px;
+    width: 195px;
+    height: 40px;
+	background-color: #407BFF;
+}
+
+.plaz {
+    margin:0 120px 60px 120px;
+    width: 220px;
+    height: 40px;
+	background-color: #8B8B8B;    
+}
+
+.nadpis1 h2 {
+    margin: 0 109px 15px 109px;
+}
+
+.nadpis1 p {
+    height: 65px;
+    margin-bottom: 30px;
+}
+  
+.map,
+.cactus,
+.plane {
+    display: flex;
+    background-color: #FFFFFF;
+    height: 80px;
+    font-size:13px;
+    font-weight: 300;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    padding: 20px;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    opacity: 1;
+}
+
+.map-text,
+.cactus-text,
+.plane-text {
+    width: 346px;
+    height: 28px;
+    flex-grow: 0;
+    color: #8B8B8B;
+    padding-top: 12px;
+}
+
+.delegat h2 {
+    margin: 45px 101px 15px 101px;
+}
+    
+.delegat p {
+    margin-bottom: 15px;
+}
+
+.palm,
+.umbrella,
+.rv {
+    display: flex;
+    background-color: #FFFFFF;
+    height: 80px;
+    font-size:13px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    padding: 20px;
+    justify-content: space-between;
+    opacity: 1;
+    margin-bottom: 15px;
+}
+
+.palm-text,
+.umbrella-text,
+.rv-text {
+    width: 346px;
+    height: 28px;
+    flex-grow: 0;
+    color: #8B8B8B;
+    padding-top: 12px;
+}
+
+@media screen and (min-width: 640px) {
+    p {     
+    font-weight: 300;
+    width: 550px;
+    height: 65px;
+    margin:0 89px 30px 89px;    
+    }
+        
+    .happy-obrazek {
+    width: 400px;
+    height: 330px;
+    margin: 0  165px 30px 165px;
+    }
+
+    h1 {
+        margin: 0 267px;
+    }
+
+    .rectangle {
+    width: 60px;
+    height: 2px;
+    background-color: #407BFF;
+    margin: 10px 334px 30px;
+    }
+
+    .tlacitka a {
+    font-size: 14px;
+    text-decoration: none;
+	text-align: center;
+	color: white;
+	border-radius: 20px;    
+    }
+
+    .tlacitka {
+        display: flex;
+        margin-left: 147px;
+        margin-right: 147px;
+        justify-content: space-between;
+    }
+    
+    .dobrodruzstvi {
+    margin:0;
+    width: 195px;
+    height: 40px;
+	background-color: #407BFF;
+    }
+
+    .plaz {
+    margin:0;
+    padding: 10px 30px 10px 30px;
+    width: 220px;
+    height: 40px;
+	background-color: #8B8B8B;      
+    }
+
+    .nadpis1 h2 {
+        margin: 80px 235px 20px 235px;
+        }
+    
+    .office p {
+        margin-bottom: 0;
+    }
+
+    .box {
+        display: flex;
+        margin-top: 40px;
+        justify-content: space-between;
+    }
+
+    .map,
+    .cactus,
+    .plane {
+        width: 230px;
+        height: 170px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px #407BFF1F;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0;  
+    }
+
+    .map-obrazek,
+    .cactus-obrazek,
+    .plane-obrazek {
+    width: 50px;
+    height: 40px;
+    margin: 40px 90px 20px;
+    }
+
+    .map-text,
+    .cactus-text,
+    .plane-text {
+    width: 200px;
+    line-height: 17px;
+    height: 50px;
+    font-size:13px;
+    font-weight: 300;
+    margin: 0px 15px 20px 15px;
+    text-align: center;
+    padding: 0;   
+    }
+
+    .nadpis2 h2 {
+    margin: 80px 235px 20px 235px;
+    }
+
+    .delegat p {
+        margin-bottom: 0;
+    }
+
+   .kontejner {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+    }
+
+    .palm,
+    .umbrella,
+    .rv {
+    width: 230px;
+    height: 170px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px #407BFF1F;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;  
+    }
+
+    .palm-obrazek,
+    .umbrella-obrazek,
+    .rv-obrazek {
+    width: 50px;
+    height: 40px;
+    margin: 40px 90px 20px;
+    }
+
+    .palm-text,
+    .umbrella-text,
+    .rv-text {
+    width: 200px;
+    line-height: 17px;
+    height: 50px;
+    font-size:13px;
+    font-weight: 300;
+    margin: 0px 15px 20px 15px;
+    text-align: center;
+    padding: 0;    
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .traveler {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        width: 1040px;
+        height: 355px;
+    }   
+
+    .happy-obrazek,
+    .nadpis {
+        flex-basis:490px;      
+    }   
+
+    .happy-obrazek {
+        width:490px;
+        height: 355px;
+        margin: 0;
+    }   
+
+    .happy-obrazek img {
+        width: 425px;
+        height: 355px;
+        margin-right: 65px;
+        }
+
+    .nadpis {
+        width: 490px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    h1 {
+        margin: 70px 388px 10px 60px;
+    }
+
+    .rectangle {    
+       margin: 0 0 30px 60px;
+    }
+
+    .traveler p {      
+       text-align: left;
+       font-weight: 300;    
+       width: 490px;
+       height: 65px;
+       margin: 0 0 30px 60px;
+    }
+
+    .tlacitka {
+       display: flex;
+	   font-size: 14px;
+       text-decoration: none;
+	   text-align: center;
+	   color: white;
+	   border-radius: 20px;
+       margin: 0;
+    }
+
+    .dobrodruzstvi {
+        margin: 0 0 0 60px;
+        width: 195px;
+        height: 40px;
+	    background-color: #407BFF;
+    }
+
+    .plaz {
+        width: 220px;
+        height: 40px;
+	    background-color: #8B8B8B;    
+    }
+    
+
+    .office {
+        display: flex;
+        flex-direction: row-reverse;
+        margin-top: 80px;
+        justify-content: space-between;
+    }          
+            
+    .nadpis1 {
+        width: 430px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 60px;
+        justify-content: space-between;        
+    } 
+
+    .office h2 {
+        text-align: left;
+        margin: 40px 248px 20px 60px;
+    }
+    
+    .office p {
+        text-align: left;
+        width: 430px;
+        height: 80px;
+        margin: 0 60px 120px 60px;
+    }
+
+    .box {
+        width: 550px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0px;
+    }
+                
+    .map,
+    .cactus,
+    .plane {
+        width: 170px;
+        height: 190px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px #407BFF1F;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .map-obrazek,
+    .cactus-obrazek,
+    .plane-obrazek {
+        width: 50px;
+        height: 40px;
+        margin: 40px 60px 20px 60px;
+    }
+    
+    .map-text,
+    .cactus-text,
+    .plane-text {
+        width: 140px;
+        height: 50px;
+        font-size:13px;
+        font-weight: 300;
+        margin: 0px 15px 40px 15px;
+        text-align: center;
+    }          
+        
+    .delegat {
+        display: flex;
+        margin-top: 80px;
+        justify-content: space-between;
+        height: 280px;
+    }    
+        
+    .nadpis2 {
+        width: 430px;
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: space-between;
+    }        
+    
+    .delegat h2{
+        margin: 40px 232px 20px 60px;
+    }  
+    
+    .delegat p {
+        text-align: left;
+        width: 430px;
+        height: 260px;
+        margin: 0 60px 80px 60px;
+    }
+
+    .kontejner {
+        width: 550px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0;
+    }                                   
+            
+    .palm,
+    .umbrella,
+    .rv {
+        width: 170px;
+        height: 190px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        box-shadow: 0px 4px 6px #407BFF1F;
+        opacity: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+        
+    .palm-obrazek,
+    .umbrella-obrazek,
+    .rv-obrazek {
+        width: 50px;
+        height: 40px;
+        margin: 40px 60px 20px 60px;
+    }
+        
+    .palm-text,
+    .umbrella-text,
+    .rv-text {
+        width: 140px;
+        height: 50px;
+        font-size:13px;
+        font-weight: 300;
+        margin: 0px 15px 40px 15px;
+        text-align: center;
+    }
+        
+} 
